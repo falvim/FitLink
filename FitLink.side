@@ -1,0 +1,106 @@
+{
+  "id": "bd9135c3-5408-4148-8682-95f7c81d2c80",
+  "version": "2.0",
+  "name": "FitLink",
+  "url": "https://falvim.github.io",
+  "tests": [{
+    "id": "8fe525ff-8f3e-444b-8ae9-5c45da4db1f8",
+    "name": "Consultar Plano de Treino",
+    "commands": [{
+      "id": "c180a05e-43d3-4df3-a72b-2ce3270ef54e",
+      "comment": "",
+      "command": "open",
+      "target": "/FitLink/activities/activities.html?planoTreinoID=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7e28865-1f11-4254-8842-7f7d710656fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "517x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25cb643d-a008-42e2-bbaf-c50ca100d671",
+      "comment": "",
+      "command": "click",
+      "target": "id=exercicios",
+      "targets": [
+        ["id=exercicios", "id"],
+        ["css=#exercicios", "css:finder"],
+        ["xpath=//div[@id='exercicios']", "xpath:attributes"],
+        ["xpath=//div[@id='pts']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b15bdef-dbfa-4fef-9382-d8394561e914",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > #exercicios",
+      "targets": [
+        ["css=a:nth-child(3) > #exercicios", "css:finder"],
+        ["xpath=(//div[@id='exercicios'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='exerciciosGrid']/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18746250-f24c-403b-9f4d-596d3d97a232",
+      "comment": "",
+      "command": "click",
+      "target": "id=finalizado",
+      "targets": [
+        ["id=finalizado", "id"],
+        ["css=#finalizado", "css:finder"],
+        ["xpath=//div[@id='finalizado']", "xpath:attributes"],
+        ["xpath=//div[@id='exercicio']/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb06745-8de7-40d0-82de-9e4dd43aeaf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-solid",
+      "targets": [
+        ["css=.fa-solid", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c9dab0-1df8-4cac-876f-6bcece0b9d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > #exercicios",
+      "targets": [
+        ["css=a:nth-child(4) > #exercicios", "css:finder"],
+        ["xpath=(//div[@id='exercicios'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='exerciciosGrid']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ce75bc-1ed5-4d12-af1f-81eddcf5bedb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-regular",
+      "targets": [
+        ["css=.fa-regular", "css:finder"],
+        ["xpath=//div[@id='finalizado']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3d7a66f3-f156-4329-9206-d97fb1e0af19",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8fe525ff-8f3e-444b-8ae9-5c45da4db1f8"]
+  }],
+  "urls": ["https://falvim.github.io/"],
+  "plugins": []
+}
