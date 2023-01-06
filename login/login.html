@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="" content="" />
+    <meta name="generator" content="" />
+    <title>FitLink</title>
+
+    <!-- bootstrap css -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="login.css" rel="stylesheet" />
+
+    <!-- Main Scripts -->
+    <script src="../main.js"></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- jquery ui -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- fontawesome js -->
+    <script src="https://kit.fontawesome.com/d105b2d509.js"
+            crossorigin="anonymous"></script>
+
+    <!-- knockout js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"></script>
+
+    <!-- page scripts -->
+    <script src="login.js"></script>
+</head>
+
+  <body>
+    <div
+      class="vh-100 d-flex justify-content-center align-items-center bg-login"
+    >
+      <div class="container">
+        <div class="logo-container">
+          <img src="../assets/images/logo.png" class="logo" />
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 col-md-8 col-lg-6">
+            <div class="card bg-white">
+              <div class="card-body p-5">
+                  <form class="mb-3 mt-md-4">
+                      <!-- <h2 class="fw-bold mb-2 text-uppercase">FitLink</h2> -->
+
+                      <div class="mb-3">
+                          <label for="username" class="form-label">Username</label>
+                          <input type="text"
+                                 class="form-control"
+                                 id="username"
+                                 placeholder="username" />
+                      </div>
+                      <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password"
+                                 class="form-control"
+                                 id="password"
+                                 placeholder="*******" />
+                      </div>
+                      <div class="d-grid">
+                          <button id="login"
+                                  class="btn btn-outline-dark"
+                                  type="submit">
+                              Login
+                          </button>
+                      </div>
+                      <div class="d-grid mt-1">
+                          <button id="limpar"
+                                  class="btn btn-outline-dark"
+                                  type="submit">
+                              Limpar Contexto
+                          </button>
+                      </div>
+                  </form>
+                  <div>
+                  <p id="error" class="mb-0 text-center text-bg-danger">
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

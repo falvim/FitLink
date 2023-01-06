@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="" content="" />
+    <meta name="generator" content="" />
+    <title>FitLink</title>
+
+    <!-- bootstrap css -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Main styles -->
+    <link href="../main.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="activities.css" rel="stylesheet" />
+
+    <!-- Main Scripts -->
+    <script src="../main.js"></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- jquery ui -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- fontawesome js -->
+    <script
+      src="https://kit.fontawesome.com/d105b2d509.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- page scripts -->
+    <script src="activities.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+          <div class="row">
+              <h3>Activities</h3>
+          </div>
+          <div class="">
+              <button type="button" class="btn btn-light btn-md center-block rounded-0">A realizar</button>
+              <button type="button" class="btn btn-secondary btn-md center-block rounded-0">Realizado</button>
+          </div>
+      </div>
+
+      <div class="content">
+          <div class="list-group w-100" id="pts">
+              <div class="row border-bottom">
+                  <div class="col-3 text-bg-warning text-light text-center py-2">Hoje</div>
+                  <div class="col-9 py-2 text-secondary">Qui, 6 Jan </div>
+              </div>
+              <div class="d-grid">
+                  <div id="exercicios" type="button" class="btn rounded-0 m-2 border border-2 border-success btn-outline-success text-left">Treino Ginásio</div>
+                  <div id="avaliacoes" type="button" class="btn rounded-0 m-2 border border-2 border-info btn-outline-info text-left">Avaliação</div>
+              </div>
+          </div>
+      </div>
+
+      <!-- bottom navigation -->
+      <div id="bottom-nav"></div>
+    </div>
+  </body>
+</html>

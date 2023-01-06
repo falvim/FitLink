@@ -1,0 +1,33 @@
+.bottom-nav {
+  display: flex;
+  background-color: #145da0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.bottom-nav-btn {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+.bottom-nav-btn:hover {
+  background-color: #0c2d48;
+}
+
+.bottom-nav-btn p {
+  color: white;
+}
+.fa-stack {
+  padding: 5px 0;
+  height: 60% !important;
+}
+
+.border {
+  border-right: solid 1px white;
+}
