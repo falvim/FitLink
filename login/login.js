@@ -99,10 +99,6 @@ $(document).ready(function () {
     var clientes = JSON.parse(window.localStorage.getItem("clientes"));
     var planoTreinos = JSON.parse(window.localStorage.getItem("planoTreinos"));
 
-    console.log(clientes);
-    console.log(planoTreinos);
-
-
     $("#login").click(function () {
 
         event.preventDefault();
@@ -116,8 +112,6 @@ $(document).ready(function () {
             var planoTreino = planoTreinos.find(p => p.refCliente == cliente.id);
 
             window.localStorage.setItem("clienteID", JSON.stringify(cliente.id));
-
-            alert(cliente.id);
 
             if (planoTreino != undefined)
                 window.location = "../activities/activities.html?planoTreinoID=" + planoTreino.id;
