@@ -59,5 +59,7 @@ $(document).ready(function () {
         });
 
         $("#exerciciosGrid").append(items);
+
+
     }
 })

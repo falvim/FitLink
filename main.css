@@ -1,4 +1,4 @@
-@import "bottom-nav/bottom-nav.css";
+/*@import "bottom-nav/bottom-nav.css";
 
 .container {
   padding: 0;
@@ -8,10 +8,10 @@
 
 .content {
   margin-top: 15vh;
-}
+}*/
 
 /* ---- header ---- */
-.header {
+/*.header {
   background-color: #145da0;
   position: fixed;
   top: 0;
@@ -26,10 +26,10 @@
 h3 {
   text-align: center;
   padding-top: 20px;
-}
+}*/
 
 /* search bar */
-.search {
+/*.search {
   margin-bottom: auto;
   height: 40px;
   background-color: #fff;
@@ -44,9 +44,9 @@ h3 {
   outline: 0;
   background: none;
   width: 0;
-  caret-color: transparent;
+  caret-color: transparent;*/
   /* line-height: 40px; */
-  transition: width 0.4s linear;
+  /*transition: width 0.4s linear;
 }
 
 .search .search-input {
@@ -75,4 +75,4 @@ h3 {
 }
 a:link {
   text-decoration: none;
-}
+}*/
